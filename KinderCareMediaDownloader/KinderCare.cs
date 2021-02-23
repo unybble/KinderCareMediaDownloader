@@ -25,9 +25,9 @@ namespace KinderCareMediaDownloader
     public class KinderCare
     {
         string USERNAME = 
-        string PASSWORD =
+        string PASSWORD = 
         string photo_location = "/Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/media/";
-        int SHOW_MORE = 1;
+        int SHOW_MORE = 20;
         String test_url = "https://classroom.kindercare.com/headlines";
 
         IWebDriver driver;

@@ -3,9 +3,8 @@
   <MonoDevelop.Ide.ItemProperties.WriteMedia PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="KinderCare.cs">
     <Files>
-      <File FileName="KinderCare.cs" Line="95" Column="66" />
-      <File FileName="media/media.csv" Line="1" Column="1" />
-      <File FileName="../WriteMedia/Program.cs" Line="1" Column="1" />
+      <File FileName="KinderCare.cs" Line="27" Column="27" />
+      <File FileName="../WriteMedia/Program.cs" Line="47" Column="59" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +12,6 @@
           <Node name="KinderCareMediaDownloader" expanded="True">
             <Node name="KinderCareMediaDownloader" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="media" expanded="True" />
               <Node name="KinderCare.cs" selected="True" />
             </Node>
             <Node name="WriteMedia" expanded="True" />

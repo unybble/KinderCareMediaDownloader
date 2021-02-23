@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Net;
+using System.Text;
 using CsvHelper;
 
 namespace WriteMedia
@@ -10,6 +11,8 @@ namespace WriteMedia
     public class KCMedia
     {
         public string Url { get; set; }
+        public string Date { get; set; }
+        public string Child { get; set; }
     }
 
     class Program
@@ -26,15 +29,26 @@ namespace WriteMedia
                 using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
                 {
                     var records = csv.GetRecords<KCMedia>();
-                    var counter = 0;
-                    Console.WriteLine("Files");
+
+                    var counter = 1;
                     using (var wc = new WebClient())
                     {
-                        Console.WriteLine(counter);
+                        
                         foreach (var record in records)
                         {
+                            var fname = new StringBuilder();
+
                             var ext = record.Url.Split(".");
-                            wc.DownloadFile(record.Url, dl_path + counter++.ToString() + "."+ext[ext.Length-1]);
+                            var extWithExtra = ext[ext.Length - 1];
+                            var extParts = extWithExtra.Split("?");
+
+
+                            fname.Append(record.Child+"_"+record.Date.Replace(" ","-")+"_"+counter++);
+                            fname.Append("." + extParts[0]);
+                           
+                            Console.WriteLine(fname);
+                  
+                            wc.DownloadFile(record.Url, dl_path + fname );
                         }
                     }
                 }
