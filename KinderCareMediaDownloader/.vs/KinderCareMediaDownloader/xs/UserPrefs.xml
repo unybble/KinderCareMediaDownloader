@@ -1,24 +1,31 @@
-﻿<Properties StartupConfiguration="{71E4B47F-1805-4815-B7BA-FCCC4896A336}|Default">
+﻿<Properties StartupConfiguration="{F92E7013-230D-4C21-9475-227637F6D585}|Default">
   <MonoDevelop.Ide.ItemProperties.KinderCareMediaDownloader PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.WriteMedia PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="KinderCare.cs">
     <Files>
-      <File FileName="UnitTest1.cs" Line="26" Column="26" />
+      <File FileName="KinderCare.cs" Line="95" Column="66" />
       <File FileName="media/media.csv" Line="1" Column="1" />
+      <File FileName="../WriteMedia/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="KinderCareMediaDownloader" expanded="True">
             <Node name="KinderCareMediaDownloader" expanded="True">
+              <Node name="Dependencies" expanded="True" />
               <Node name="media" expanded="True" />
               <Node name="KinderCare.cs" selected="True" />
             </Node>
+            <Node name="WriteMedia" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>WriteMedia/WriteMedia.csproj</String>
+  </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

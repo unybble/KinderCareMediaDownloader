@@ -1,3 +1,5 @@
+/Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/obj/Debug/netcoreapp3.1/KinderCareMediaDownloader.csprojAssemblyReference.cache
+/Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/obj/Debug/netcoreapp3.1/KinderCareMediaDownloader.csproj.CoreCompileInputs.cache
 /Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/bin/Debug/netcoreapp3.1/NUnit3.TestAdapter.dll
 /Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/bin/Debug/netcoreapp3.1/NUnit3.TestAdapter.pdb
 /Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/bin/Debug/netcoreapp3.1/nunit.engine.dll
@@ -8,6 +10,7 @@
 /Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/bin/Debug/netcoreapp3.1/KinderCareMediaDownloader.runtimeconfig.dev.json
 /Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/bin/Debug/netcoreapp3.1/KinderCareMediaDownloader.dll
 /Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/bin/Debug/netcoreapp3.1/KinderCareMediaDownloader.pdb
+/Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/bin/Debug/netcoreapp3.1/CsvHelper.dll
 /Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll
 /Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/bin/Debug/netcoreapp3.1/Microsoft.DotNet.InternalAbstractions.dll
 /Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/bin/Debug/netcoreapp3.1/Microsoft.TestPlatform.CoreUtilities.dll
@@ -88,12 +91,7 @@
 /Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 /Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 /Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-/Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/obj/Debug/netcoreapp3.1/KinderCareMediaDownloader.csprojAssemblyReference.cache
-/Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/obj/Debug/netcoreapp3.1/KinderCareMediaDownloader.AssemblyInfoInputs.cache
-/Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/obj/Debug/netcoreapp3.1/KinderCareMediaDownloader.AssemblyInfo.cs
-/Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/obj/Debug/netcoreapp3.1/KinderCareMediaDownloader.csproj.CoreCompileInputs.cache
 /Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/obj/Debug/netcoreapp3.1/KinderCareMediaDownloader.csproj.CopyComplete
 /Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/obj/Debug/netcoreapp3.1/KinderCareMediaDownloader.dll
 /Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/obj/Debug/netcoreapp3.1/KinderCareMediaDownloader.pdb
 /Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/obj/Debug/netcoreapp3.1/KinderCareMediaDownloader.genruntimeconfig.cache
-/Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/bin/Debug/netcoreapp3.1/CsvHelper.dll

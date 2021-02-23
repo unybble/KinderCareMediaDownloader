@@ -1,0 +1,14 @@
+/Users/Jen/Projects/KinderCareMediaDownloader/WriteMedia/bin/Release/netcoreapp3.1/WriteMedia.deps.json
+/Users/Jen/Projects/KinderCareMediaDownloader/WriteMedia/bin/Release/netcoreapp3.1/WriteMedia.runtimeconfig.json
+/Users/Jen/Projects/KinderCareMediaDownloader/WriteMedia/bin/Release/netcoreapp3.1/WriteMedia.runtimeconfig.dev.json
+/Users/Jen/Projects/KinderCareMediaDownloader/WriteMedia/bin/Release/netcoreapp3.1/WriteMedia.dll
+/Users/Jen/Projects/KinderCareMediaDownloader/WriteMedia/bin/Release/netcoreapp3.1/WriteMedia.pdb
+/Users/Jen/Projects/KinderCareMediaDownloader/WriteMedia/bin/Release/netcoreapp3.1/CsvHelper.dll
+/Users/Jen/Projects/KinderCareMediaDownloader/WriteMedia/obj/Release/netcoreapp3.1/WriteMedia.csprojAssemblyReference.cache
+/Users/Jen/Projects/KinderCareMediaDownloader/WriteMedia/obj/Release/netcoreapp3.1/WriteMedia.AssemblyInfoInputs.cache
+/Users/Jen/Projects/KinderCareMediaDownloader/WriteMedia/obj/Release/netcoreapp3.1/WriteMedia.AssemblyInfo.cs
+/Users/Jen/Projects/KinderCareMediaDownloader/WriteMedia/obj/Release/netcoreapp3.1/WriteMedia.csproj.CoreCompileInputs.cache
+/Users/Jen/Projects/KinderCareMediaDownloader/WriteMedia/obj/Release/netcoreapp3.1/WriteMedia.csproj.CopyComplete
+/Users/Jen/Projects/KinderCareMediaDownloader/WriteMedia/obj/Release/netcoreapp3.1/WriteMedia.dll
+/Users/Jen/Projects/KinderCareMediaDownloader/WriteMedia/obj/Release/netcoreapp3.1/WriteMedia.pdb
+/Users/Jen/Projects/KinderCareMediaDownloader/WriteMedia/obj/Release/netcoreapp3.1/WriteMedia.genruntimeconfig.cache

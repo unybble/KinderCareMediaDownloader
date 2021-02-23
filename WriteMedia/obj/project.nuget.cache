@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "nrgiSHN2lade2ooO00x19anm20k6KIvNd64r0yqtdp69YT8NN6RKq7XT2Fs2PDjuDBGW0J6j8S8pCdlawEQvgw==",
+  "success": true,
+  "projectFilePath": "/Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/WriteMedia/WriteMedia.csproj",
+  "expectedPackageFiles": [
+    "/Users/Jen/.nuget/packages/csvhelper/24.0.0/csvhelper.24.0.0.nupkg.sha512",
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/Jen/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WriteMedia/1.0.0": {
+        "dependencies": {
+          "CsvHelper": "24.0.0"
+        },
+        "runtime": {
+          "WriteMedia.dll": {}
+        }
+      },
+      "CsvHelper/24.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/CsvHelper.dll": {
+            "assemblyVersion": "24.0.0.0",
+            "fileVersion": "24.0.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.5.0": {}
+    }
+  },
+  "libraries": {
+    "WriteMedia/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CsvHelper/24.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QWgK+BFBuwZMtk+LgtJQ3WkLCrgngoTp7zPJSwBatSGyX+Pk+wlt/0q4vMGmmUwRNAn1QfrKaCclG6jTpm50iA==",
+      "path": "csvhelper/24.0.0",
+      "hashPath": "csvhelper.24.0.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+      "path": "microsoft.csharp/4.5.0",
+      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+    }
+  }
+}

@@ -5,7 +5,9 @@ using System.IO;
 using System.Net;
 using System.Net.Http;
 using System.Text;
+using System.Text.RegularExpressions;
 using CsvHelper;
+using Newtonsoft.Json;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -16,13 +18,16 @@ namespace KinderCareMediaDownloader
     public class KCMedia
     {
         public string Url { get; set; }
+        public string Date { get; set; }
+        public string Child { get; set; }
     }
 
     public class KinderCare
     {
-    
+        string USERNAME = 
+        string PASSWORD =
         string photo_location = "/Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/media/";
-        int SHOW_MORE = 0;
+        int SHOW_MORE = 1;
         String test_url = "https://classroom.kindercare.com/headlines";
 
         IWebDriver driver;
@@ -57,19 +62,50 @@ namespace KinderCareMediaDownloader
             }
 
             System.Threading.Thread.Sleep(2000);
-            var images = driver.FindElements(By.CssSelector("div.activity-modal"));
+            var tiles = driver.FindElements(By.CssSelector("div.activity-modal"));
+           
+          
 
-            var urls = new List<KCMedia>();
+            var list = new List<KCMedia>();
 
-            foreach (var image in images)
+            foreach (var tile in tiles)
             {
-                var path = image.GetAttribute("data-srcimg");
-                TestContext.Out.WriteLine(path);
-                if (path.Length > 0)
-                urls.Add(new KCMedia() { Url = path });
+                var id = Regex.Replace(tile.GetAttribute("id"), @"[^\d]", "");
+                var dataType = tile.GetAttribute("data-type");
+
+                string _url = "";
+
+                if (dataType.Equals("image"))
+                {
+                     _url = tile.GetAttribute("data-srcimg");
+                }
+                else if (dataType.Equals("video"))
+                {
+                    _url = tile.GetAttribute("data-srcmp4");
+                }
+
+
+
+                if (_url.Length > 0)
+                {
+                    var kc = new KCMedia() { Url=_url};
+
+                    var details = driver.FindElement(By.XPath("//a[contains(@data-src,'#activity-"+id+"-modal')]"));
+                    var date = details.FindElement(By.ClassName("thumbnail-date")).FindElement(By.CssSelector("p")).Text;
+                    var name = details.FindElement(By.ClassName("account-name")).FindElement(By.CssSelector("span")).Text;
+
+                    kc.Date = date;
+                    kc.Child = name;
+
+                    list.Add(kc);
+                }
+                    
+                    
             }
 
-            SaveFile(urls);
+            
+
+            SaveFile(list);
 
 
 
