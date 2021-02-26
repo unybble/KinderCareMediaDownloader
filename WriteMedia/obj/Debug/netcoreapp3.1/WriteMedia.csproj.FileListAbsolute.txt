@@ -12,3 +12,4 @@
 /Users/Jen/Projects/KinderCareMediaDownloader/WriteMedia/obj/Debug/netcoreapp3.1/WriteMedia.dll
 /Users/Jen/Projects/KinderCareMediaDownloader/WriteMedia/obj/Debug/netcoreapp3.1/WriteMedia.pdb
 /Users/Jen/Projects/KinderCareMediaDownloader/WriteMedia/obj/Debug/netcoreapp3.1/WriteMedia.genruntimeconfig.cache
+/Users/Jen/Projects/KinderCareMediaDownloader/WriteMedia/bin/Debug/netcoreapp3.1/ExifLibrary.dll

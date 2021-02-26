@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mpvsoYmX8edvwxVu+51J/uDwdDJlcC3E/H+1wp6SvJR/nbDrEoCqxQozbjEa+aDqk7sGq6mkwsA6/9UI6XJKRg==",
+  "dgSpecHash": "Jr87zDy09gjreZO1u2tIYYSyDZyBRQDQjUZpbiq6wRHi7808iUZZk7+69ROBMUjnszL9Nrbcte3Zh8DTmsaF3Q==",
   "success": true,
   "projectFilePath": "/Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/KinderCareMediaDownloader.csproj",
   "expectedPackageFiles": [
@@ -62,8 +62,7 @@
     "/Users/Jen/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/Jen/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.xml.xpath/4.3.0/system.xml.xpath.4.3.0.nupkg.sha512",
-    "/Users/Jen/.nuget/packages/system.xml.xpath.xmldocument/4.3.0/system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
-    "/Users/Jen/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+    "/Users/Jen/.nuget/packages/system.xml.xpath.xmldocument/4.3.0/system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

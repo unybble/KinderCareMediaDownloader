@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/WriteMedia/WriteMedia.csproj": {}
+    "/Users/Jen/Projects/KinderCareMediaDownloader/WriteMedia/WriteMedia.csproj": {}
   },
   "projects": {
-    "/Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/WriteMedia/WriteMedia.csproj": {
+    "/Users/Jen/Projects/KinderCareMediaDownloader/WriteMedia/WriteMedia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/WriteMedia/WriteMedia.csproj",
+        "projectUniqueName": "/Users/Jen/Projects/KinderCareMediaDownloader/WriteMedia/WriteMedia.csproj",
         "projectName": "WriteMedia",
-        "projectPath": "/Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/WriteMedia/WriteMedia.csproj",
+        "projectPath": "/Users/Jen/Projects/KinderCareMediaDownloader/WriteMedia/WriteMedia.csproj",
         "packagesPath": "/Users/Jen/.nuget/packages/",
-        "outputPath": "/Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/WriteMedia/obj/",
+        "outputPath": "/Users/Jen/Projects/KinderCareMediaDownloader/WriteMedia/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -44,6 +44,10 @@
             "CsvHelper": {
               "target": "Package",
               "version": "[24.0.0, )"
+            },
+            "ExifLibNet": {
+              "target": "Package",
+              "version": "[2.1.4, )"
             }
           },
           "imports": [
@@ -56,18 +60,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
         }
       }
     }

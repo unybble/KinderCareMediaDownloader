@@ -5,6 +5,7 @@ using System.IO;
 using System.Net;
 using System.Text;
 using CsvHelper;
+using ExifLibrary;
 
 namespace WriteMedia
 {
@@ -13,6 +14,8 @@ namespace WriteMedia
         public string Url { get; set; }
         public string Date { get; set; }
         public string Child { get; set; }
+        public string Caption { get; set; }
+
     }
 
     class Program
@@ -49,6 +52,30 @@ namespace WriteMedia
                             Console.WriteLine(fname);
                   
                             wc.DownloadFile(record.Url, dl_path + fname );
+
+                            if (!fname.ToString().Contains(".mp4"))
+                                { 
+                                var file = ImageFile.FromFile(dl_path + fname);
+
+                                var timespan = DateTime.Now.Date - DateTime.ParseExact(record.Date,"MMM d yyyy", CultureInfo.InvariantCulture).Date;
+
+                                var newDateTime = DateTime.Now.Date - timespan;
+
+                                file.Properties.Set(ExifTag.DateTime, newDateTime);
+                                file.Properties.Set(ExifTag.DateTimeOriginal, newDateTime.AddHours(12));
+                                file.Properties.Set(ExifTag.ImageDescription, record.Caption);
+
+
+                                file.Properties.Set(ExifTag.GPSLatitude, );
+                                file.Properties.Set(ExifTag.GPSLongitude, );
+                                file.Properties.Set(ExifTag.GPSLatitudeRef, "N");
+                                file.Properties.Set(ExifTag.GPSLongitudeRef, "W");
+
+                                file.Save(dl_path + fname);
+
+                            }
+                          
+                            
                         }
                     }
                 }

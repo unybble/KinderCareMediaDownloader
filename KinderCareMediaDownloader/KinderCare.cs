@@ -20,14 +20,16 @@ namespace KinderCareMediaDownloader
         public string Url { get; set; }
         public string Date { get; set; }
         public string Child { get; set; }
+        public string Caption { get; set; }
     }
 
     public class KinderCare
     {
-        string USERNAME = 
-        string PASSWORD = 
+        string USERNAME = "";
+        string PASSWORD = "";
+
         string photo_location = "/Users/Jen/Projects/KinderCareMediaDownloader/KinderCareMediaDownloader/media/";
-        int SHOW_MORE = 20;
+        int SHOW_MORE = 10;
         String test_url = "https://classroom.kindercare.com/headlines";
 
         IWebDriver driver;
@@ -93,8 +95,17 @@ namespace KinderCareMediaDownloader
                     var details = driver.FindElement(By.XPath("//a[contains(@data-src,'#activity-"+id+"-modal')]"));
                     var date = details.FindElement(By.ClassName("thumbnail-date")).FindElement(By.CssSelector("p")).Text;
                     var name = details.FindElement(By.ClassName("account-name")).FindElement(By.CssSelector("span")).Text;
+                    var title = details.FindElement(By.ClassName("thumbnail-title")).FindElement(By.CssSelector("h4")).Text.Replace(",", " ");
+                   // var caption = details.FindElement(By.ClassName("thumbnail-snippet")).FindElement(By.CssSelector("p")).Text.Replace(","," ");
 
-                    kc.Date = date;
+                    //if (title.Length > 0 && caption.Length > 0)
+                    //    kc.Caption = title + " - " + caption;
+                    //else if (title.Length > 0)
+                    //    kc.Caption = title;
+                   // else if (caption.Length > 0)
+                   //     kc.Caption = caption;
+
+                    kc.Date = date.Replace("st","").Replace("rd","").Replace("nd","").Replace("th","")+" "+DateTime.Now.Year;
                     kc.Child = name;
 
                     list.Add(kc);
